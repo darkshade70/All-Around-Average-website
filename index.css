@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "mainFont";
+    src: url("NHaasGroteskDSPro-25Th.otf");
+}
+
+body {
+
+    background-color: rgb(31, 31, 31);
+}
+
+#name {
+    font-family: "mainFont";
+    font-size: 17em;
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+
+#description {
+    font-family: "mainFont";
+    padding-bottom: .6%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: rgb(255, 250, 179);
+
+}
+
+#members {
+    font-family: "mainFont";
+    color: rgb(255, 250, 179);
+
+}
+
+ul {
+    padding-left: 4%;
+    color: rgb(255, 250, 179);
+}
+
+li {
+    font-family: "mainFont";
+    text-decoration: none;
+}
