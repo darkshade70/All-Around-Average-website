@@ -74,13 +74,26 @@ a:hover {
 
 ul {
     color: rgb(255, 250, 179);
-    padding-left: 5%;
+    width: 100%;
+    padding-left: 4%;
 }
 
 li {
     font-size: 1.3em;
     font-family: "mainFont";
     color: rgb(238, 255, 255);
+    list-style: none;
+}
+
+li::before {
+    content: "\00BB";
+    padding-right: .5%;
+}
+
+a::before {
+    font-size: 1.5em;
+    content: "\00BB";
+    padding-right: .5%;
 }
 
 img {
